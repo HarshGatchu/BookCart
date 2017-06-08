@@ -18,7 +18,7 @@ var mongoose = require('mongoose');
 // WRITE HERE CONNECTION COPIED FROM MLAB
 //LOCAL DB
 //mongoose.connect('mongodb://localhost:27017/bookshop');
-mongoose.connect('mongodb://HarshGatchu:Harshpatel25@ds019048.mlab.com:19048/book_cart');');
+mongoose.connect('mongodb://HarshGatchu:Harshpatel25@ds019048.mlab.com:19048/book_cart');
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, '# MongoDB - connection error: '));
 
